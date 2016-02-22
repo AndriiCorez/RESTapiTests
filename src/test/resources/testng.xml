@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Full Run" verbose="1" >
+    <test name="Countries">
+        <classes>
+            <class name="countryTests.CountryTests"/>
+        </classes>
+    </test>
+    <test name="Status Codes">
+        <classes>
+            <class name="countryTests.StatusCodeTests"/>
+        </classes>
+    </test>
+</suite>
